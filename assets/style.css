@@ -1,0 +1,35 @@
+:root{
+    --seance: #651998;
+    --aero-blue: #b8fdee;
+}
+
+body {
+    color: var(--seance);
+    background-color: black;
+
+}
+
+.header {
+    background-color: var(--aero-blue);
+    Color: black;
+    
+
+}
+
+.links {
+    text-align: right;
+}
+
+.bio {
+    text-align: right;
+}
+
+.info {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--aero-blue);
+    color: black;
+}
