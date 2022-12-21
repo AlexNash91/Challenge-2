@@ -1,28 +1,56 @@
 :root{
     --seance: #651998;
     --aero-blue: #b8fdee;
+    
 }
 
-body {
-    color: var(--seance);
-    background-color: black;
 
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    background-image: url(../assets/images/Sakura-small.jpg);
+    background-color: white;
+
+    
+}
+
+.title {
+    padding-top: 25px;
+    
+    
+    
 }
 
 .header {
     background-color: var(--aero-blue);
     Color: black;
+    display: flex;
     
-
+    
 }
 
 .links {
+    display:flex;
     text-align: right;
+    
+    
+     
 }
 
 .bio {
     text-align: right;
 }
+
+.about-me{
+    
+}
+
+.headshot {
+
+
+}
+
+
 
 .info {
     text-align: center;
