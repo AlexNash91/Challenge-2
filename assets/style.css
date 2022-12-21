@@ -13,10 +13,11 @@ body {
     background-size: cover;
     background-color: white;
     
+    
 }
 
 .title {
-    padding-top: 25px;
+    padding-top: 50px;
     
     
     
@@ -26,14 +27,18 @@ body {
     background-color: var(--aero-blue);
     Color: black;
     display: flex;
+    height: 80px;
+    /* position: fixed; */
+    /* width: 100%; */
+    
+
     
     
 }
 
 .links {
     display: flex;
-    text-align: right;
-    justify-content: space-between;
+    
     
     
     
@@ -42,9 +47,10 @@ body {
 
 .bio {
     text-align: center;
+   
 }
 
-.about-me{
+#about-me{
     
 }
 
@@ -53,14 +59,14 @@ body {
 
 }
 
-.work {
+#work {
     justify-content: left;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    grid-auto-rows: minmax(75px, 25px);
-    border-top: 2px solid black;
-    padding-top: 40px;
+    grid-auto-rows: minmax(150px, 75px);
+    padding-top: 75px;
+    margin-right: 50px;
 }
 
 
@@ -70,22 +76,43 @@ body {
 }
 
 .p1 {
+    color: pink;
+    background-color: black;
+    width: 75px;
+   
+
 
 }
 
 .p2 {
+    color: pink;
+    background-color: black;
+    width: 75px;
+
 
 }
 
 .p3 {
+    color: pink;
+    background-color: black;
+    width: 75px;
+
 
 }
 
 .p4 {
+    color: pink;
+    background-color: black;
+    width: 75px;
+
 
 }
 
 .p5 {
+    color: pink;
+    background-color: black;
+    width: 75px;
+
 
 }
 
@@ -95,6 +122,9 @@ body {
     /* height */
     grid-row: 1/5;
     border: 2px solid black;
+    background-image: url(../assets/images/adventure-small.jpg);
+    background-size: cover;
+    
 
     
     
@@ -105,7 +135,9 @@ body {
     grid-column: 2/3;
     grid-row: 5/7;
     border: 2px solid black;
- 
+    background-image: url(../assets/images/code-small.jpg);
+    background-size: cover;
+  
 }
 
 
@@ -113,6 +145,8 @@ body {
     grid-column: 3/4;
     grid-row: 5/7;
     border: 2px solid black;
+    background-image: url(../assets/images/tokyo-small.jpg);
+    background-size: cover;
 
     
 
@@ -122,6 +156,8 @@ body {
     grid-column: 2/3;
     grid-row: 7/9;
     border: 2px solid black;
+    background-image: url(../assets/images/flowers-small.jpg);
+    background-size: cover;
 
 
 }
@@ -130,10 +166,12 @@ body {
     grid-column: 3/4;
     grid-row: 7/9;
     border: 2px solid black;
+    background-image: url(../assets/images/frosted-glass-small.jpg);
+    background-size: cover;
 
 }
 
-.contact-me{
+#contact-me{
 
 }
 .info {
@@ -145,4 +183,5 @@ body {
     text-align: center;
     background-color: var(--aero-blue);
     color: black;
+    height: 100px;
 }
