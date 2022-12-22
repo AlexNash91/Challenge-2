@@ -1,6 +1,7 @@
 :root{
     --seance: #651998;
     --aero-blue: #b8fdee;
+    --text-pink: #ffdbdb;
     
 }
 
@@ -16,8 +17,10 @@ body {
     
 }
 
+
 .title {
-    padding-top: 50px;
+    padding-top: 30px;
+    
     
     
     
@@ -28,8 +31,8 @@ body {
     Color: black;
     display: flex;
     height: 80px;
-    /* position: fixed; */
-    /* width: 100%; */
+    position: fixed;
+    width: 100%;
     
 
     
@@ -37,8 +40,8 @@ body {
 }
 
 .links {
-    display: flex;
-    
+    /* display: flex; */
+    float: right;
     
     
     
@@ -51,11 +54,11 @@ body {
 }
 
 #about-me{
-    
+    padding-top: 200px;
 }
 
 .headshot {
-
+    
 
 }
 
@@ -65,7 +68,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(150px, 75px);
-    padding-top: 75px;
+    padding-top: 100px;
     margin-right: 50px;
 }
 
@@ -76,7 +79,7 @@ body {
 }
 
 .p1 {
-    color: pink;
+    color: var(--text-pink);
     background-color: black;
     width: 75px;
    
@@ -85,7 +88,7 @@ body {
 }
 
 .p2 {
-    color: pink;
+    color: var(--text-pink);
     background-color: black;
     width: 75px;
 
@@ -93,7 +96,7 @@ body {
 }
 
 .p3 {
-    color: pink;
+    color: var(--text-pink);
     background-color: black;
     width: 75px;
 
@@ -101,7 +104,7 @@ body {
 }
 
 .p4 {
-    color: pink;
+    color: var(--text-pink);
     background-color: black;
     width: 75px;
 
@@ -109,7 +112,7 @@ body {
 }
 
 .p5 {
-    color: pink;
+    color: var(--text-pink);
     background-color: black;
     width: 75px;
 
@@ -162,7 +165,7 @@ body {
 
 }
 
-.container-5{
+.container-5 {
     grid-column: 3/4;
     grid-row: 7/9;
     border: 2px solid black;
@@ -171,7 +174,8 @@ body {
 
 }
 
-#contact-me{
+#contact-me {
+    padding-top: 200px;
 
 }
 .info {
