@@ -28,26 +28,29 @@ body {
 
 .header {
     background-color: var(--aero-blue);
-    Color: black;
+    color: black;
     display: flex;
     height: 80px;
     position: fixed;
     width: 100%;
-    
-
-    
-    
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
+
 .links {
-    /* display: flex; */
-    float: right;
+    display: flex;
+    /* float: right; */
     
     
     
      
 }
 
+.links li {
+    padding-right: 10px;
+}
 .bio {
     text-align: center;
    
@@ -150,6 +153,7 @@ body {
     border: 2px solid black;
     background-image: url(../assets/images/tokyo-small.jpg);
     background-size: cover;
+    
 
     
 
@@ -175,14 +179,25 @@ body {
 }
 
 #contact-me {
-    padding-top: 200px;
+    /* padding-top: 200px; */
 
 }
 .info {
 
     text-align: center;
+    justify-content: space-between;
 }
 
+.info li {
+    padding-right: 20px;
+}
+.infosection {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
 .footer {
     text-align: center;
     background-color: var(--aero-blue);
